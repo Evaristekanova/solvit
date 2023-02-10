@@ -1,4 +1,4 @@
-const orginalString = process.argv[2];
+const orginalString = process.argv.slice(2).join(" ");
 try {
   const reversedString = orginalString.split("").reverse().join("");
   console.log(reversedString);
