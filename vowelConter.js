@@ -6,5 +6,5 @@ try {
     .filter((letter) => vowels.includes(letter)).length;
   console.log(vowelCount);
 } catch (error) {
-  console.log("Enter a string please!");
+  console.log("Enter a string please!!!");
 }
